@@ -1,0 +1,29 @@
+
+'''
+CREATE TABLE stock.stock_list (
+	`code` varchar(20) not null,
+	`name` varchar(64) not null,
+	`industry` varchar(64) not null,
+    `area` varchar(64) not null,
+    `pe` 	float(20,2),
+    `outstanding` 	float(20,2),
+    `totals` 	float(20,2),
+    `totalAssets` 	float(20,2),
+    `liquidAssets` 	float(20,2),
+    `fixedAssets` 	float(20,2),
+    `reserved` 	float(20,2),
+    `reservedPerShare` 	float(20,2),
+    `esp` 	float(20,2),
+    `bvps` 	float(20,2),
+    `pb` 	float(20,2),
+    `timeToMarket`  DATE,
+    `undp` 	float(20,2),
+    `perundp` 	float(20,2),
+    `rev` 	float(20,2),
+    `profit` 	float(20,2),
+    `gpr` 	float(20,2),
+    `npr` 	float(20,2),
+    `holders` int
+)
+COMMENT = `股票列表`;
+'''
